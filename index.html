@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="output.css"/>
+    <link rel="stylesheet" href="css.css" />
+    <script src="navbar.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="icon" href="img/personal_icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body class="bg-[#e5def6]">
+    <header class="sticky top-0 left-0 right-0 z-10 mb-4">
+      <nav class="bg-white shadow">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+          <div class="flex items-center">
+            <img loading="lazy" src="img/img.png" alt="Logo" class="h-16">
+          </div>
+            <ul
+          class="md:flex md:items-center z-[-1] md:z-auto md:static absolute w-1/2 right-0 md:w-auto md:py-0 py-4 md:pr-0 pr-7 md:opacity-100 opacity-0 transition-all ease in duration-500 text-slate-900 bg-white rounded-xl mx-4"
+                >
+                <div class="hidden md:flex flex-col md:flex-row gap-4 items-center poppins-light text-lg">
+                    <a href="#home" class="border-2 border-black p-2 hover:bg-black hover:text-white transition-all ease in duration-500 hover:rounded-xl active:rounded-none active:ease-in-out">Home</a>
+                    <a href="#about" class="border-2 border-black p-2 hover:bg-black hover:text-white transition-all ease in duration-500 hover:rounded-xl active:rounded-none active:ease-in-out">About</a>
+                    <a href="#projects" class="border-2 border-black p-2 hover:bg-black hover:text-white transition-all ease in duration-500 hover:rounded-xl active:rounded-none active:ease-in-out">Projects</a>
+                </div>
+            </ul>
+            <div class="items-center block">
+                <button class="text-white font-bold py-2 px-4 rounded btn-grad hover:opacity-80 active:opacity-100 ">
+                  <a target="_blank" href="pdf/PeterKessibu__resume.pdf">Resume</a>
+                </button>
+            </div>
+        </div>
+      </nav>
+    </header>
+      <main class="flex flex-col max-w-full items-center mb-[24px]">
+        <section id="home" class="mb-4 mt-4 scroll-mt-30">
+            <div class="flex flex-col">
+              <div
+                id="about"
+                class="flex flex-col-reverse justify-center lg:flex-row mx-6 items-center"
+              >
+              <img
+              src="img/photo_2024-05-29_07-44-04.jpg"
+              alt=""
+              class="w-full sm:w-[70%] md:w-[50%] lg:w-[40%] xl:w-[35%] mx-4"
+            />
+            
+                <span class="leading-10 lg:w-1/2">
+                  <span class="text-3xl poppins-semibold text-center mx-auto">Peter Kwamena Essibu Here!</span>
+                  <span class="mt-7 mx-3 p-4">
+                    <p
+                      class="text-2xl poppins-italic text-pretty text-justify"
+                    >
+                    Ready to see what I can do? Dive in!
+                    </p>
+                  </span>
+                </span>
+                </span>
+              </div>
+            </div>
+        </section>
+        <section id="about" class="items-center justify-center mx-auto scroll-smooth scroll-mt-30 mt-4">
+          <div class="text-center mx-auto justify-center text-4xl poppins-semibold">
+            A little about me...
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <div class="leading-10 lg:w-1/2 text-black">
+              <div class="mt-7 mx-3 p-4">
+                <p
+                  class="text-sm lg:text-base poppins-light leading-6 lg:leading-8 text-pretty text-justify"
+                >
+                I am a Computer Science student driven by innovation and a thirst for knowledge. As a creative problem-solver, I leverage cutting-edge technologies to develop original solutions. With a keen eye for detail and a dedication to excellence, I excel in programming and software development. A strong team player, I value open communication and constructive feedback. Beyond technical skills, I am eager to explore the broader impact of technology on society.
+                <br>
+                As a third-year Computer Science student, I specialize in web development. My focus is on crafting user-friendly and interactive web experiences that simplify complex information. I am committed to staying up-to-date with industry trends to deliver innovative solutions in the ever-evolving digital landscape.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="projects" class="mb-4 mt-4 scroll-smooth">
+          <div class="text-center mx-auto justify-center text-4xl mb-4 poppins-semibold scroll-mt-10">
+            Projects
+          </div>
+          <section class="flex flex-col items-center justify-center mb-4">
+            <div class="text-center mx-auto justify-center text-base md:text-xl mb-4 poppins-semibold">
+              UI prototype of a Snack shop
+            </div>
+              <div class="bg-white rounded-2xl hidden md:block items-center">
+                <div class="project-video aspect-video w-auto h-auto md:h-96 lg:h-128">
+                  <div style="position: relative; padding-bottom: 56%; height: 0;"><iframe src="https://www.loom.com/embed/80915edd9490491b97a0ef6ae09cb42a?sid=9adb60f4-5c4f-4cb9-84c0-d2ca6e81ba9d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                </div>
+              </div>
+              <div class="bg-white rounded-2xl md:hidden block items-center mx-4">
+                <div class="w-auto h-auto md:h-96 lg:h-128 mx-auto">
+                  <a href="https://www.loom.com/share/80915edd9490491b97a0ef6ae09cb42a?sid=c9b97592-d23f-4b92-9699-b9e8fcd0c735" target="_blank"><img loading="lazy" src="img/figma image.png" alt="figma image"></a>
+                </div>
+                <p class="text-center mx-auto justify-center text-sm md:text-base mb-4 text-blue-700 underline poppins-light">
+                  <a href="https://www.loom.com/share/80915edd9490491b97a0ef6ae09cb42a?sid=c9b97592-d23f-4b92-9699-b9e8fcd0c735" target="_blank">Link to Video</a>
+                </p>
+              </div>
+          </section>
+          <section class="flex flex-col items-center justify-center mb-4">
+            <div class="text-center mx-auto justify-center text-base md:text-xl mb-4 poppins-semibold">
+              Magic Number Words
+            </div>
+              <div class="bg-white rounded-2xl hidden md:block items-center">
+                <div class="project-video aspect-video w-auto h-auto md:h-96 lg:h-128">
+                  <div style="position: relative; padding-bottom: 56.162246489859605%; height: 0;"><iframe src="https://www.loom.com/embed/d4a5c7ce717b4dd0b4f6c8a54105be88?sid=deeff776-b930-47d0-b6cd-020ea2376fad" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                </div>
+              </div>
+              <div class="bg-white rounded-2xl md:hidden block items-center mx-4">
+                <div class="w-auto h-auto md:h-96 lg:h-128 mx-auto">
+                  <a href="https://www.loom.com/share/d4a5c7ce717b4dd0b4f6c8a54105be88?sid=a3c7f60a-89d2-4023-b1ed-7bcd31cbce58" target="_blank"><img loading="lazy" src="img/figma_magic numbers.png" alt="Magic numbers in Javascript"></a>
+                </div>
+                <p class="text-center mx-auto justify-center text-sm md:text-base mb-4 text-blue-700 underline poppins-light">
+                  <a href="https://www.loom.com/share/d4a5c7ce717b4dd0b4f6c8a54105be88?sid=a3c7f60a-89d2-4023-b1ed-7bcd31cbce58" target="_blank">Link to Video</a>
+                </p>
+              </div>
+          </section>
+          <section class="flex items-center justify-center mb-20">
+            <div class="text-center mx-auto justify-center text-base md:text-xl mb-5 poppins-semibold">
+              Previous Version of My Portfolio Website
+              <div class="bg-white rounded-2xl items-center mx-6">
+                <div class="mx-auto justify-center text-sm md:text-base mb-4 text-blue-700 underline poppins-light">
+                  <img loading="lazy" src="img/personal website.png" alt="Personal Website">
+                  <a href="https://peterkessibu.netlify.app/" target="_blank">peterkessibu.netlify.app</a>
+                </div>
+              </div>
+          </section>
+        </section>
+        <section class="mb-4 scroll-smooth items-center justify-center">
+          <div class="text-center mx-auto justify-center flex text-xl mb-4 poppins-semibold">
+            Techstack
+          </div>
+          <div class="grid grid-cols-4  lg:grid-cols-4 gap-x-6 gap-y-4 mb-5">
+            <img loading="lazy" src="img/python_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/c++_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/java_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/html_img.png" alt="html" class="w-9">
+            <img loading="lazy" src="img/css_img.png" alt="css" class="w-9">
+            <img loading="lazy" src="img/tailwindcss_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/javascript_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/django_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/mongodb_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/mysql_omg.png" alt="" class="w-9">
+            <img loading="lazy" src="img/github_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/trello_img.png" alt="" class="w-9">
+            <img loading="lazy" src="img/api_img.jpg" alt="" class="w-9">
+          </div>
+          <div class="items-center block">
+            <button class="text-white font-bold py-2 px-4 rounded bg-black hover:opacity-80 active:opacity-100 ">
+              <a target="_blank" href="pdf/PeterKessibu__resume.pdf">Resume</a>
+            </button>
+        </div>
+        </section>
+      </main>
+      <footer class="p-4" style="margin-top: 20px;"> 
+        <section
+          class="flex flex-col items-center justify-center md:flex-row md:justify-between md:items-center"
+        >
+          <div class="hidden md:block lg:block">
+            <p class="text-gray-500 text-sm ml-10 poppins-light">
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+            </p>
+          </div>
+          <div class="items-center lg:mx-4">
+            <div class="flex flex-row lg:mx-auto">
+              <a
+                target="_blank"
+                href="mailto:peter.essibu@stu.ucc.edu.gh"
+                aria-label="Email"
+              >
+                <p class="poppins-light text-base font-semibold text-gray-800">
+                  M A I L
+                </p>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.github.com/peterkessibu"
+                aria-label="GitHub"
+              >
+                <p
+                  class="poppins-light text-base font-semibold mx-4 text-gray-800"
+                >
+                  G I T H U B
+                </p>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/peteressibu"
+                aria-label="LinkedIn"
+              >
+                <p
+                  class="poppins-light text-base font-semibold text-gray-800 lg:mr-4"
+                >
+                  L I N K E D I N
+                </p>
+              </a>
+            </div>
+          </div>
+        </section>
+      </footer>
+</body>
+</html>
+

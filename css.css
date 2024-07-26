@@ -1,0 +1,51 @@
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .btn-grad {
+    background-image: linear-gradient(
+      to right,
+      #000000 0%,
+      #525050 50%,
+      #afaeae 100%
+    );
+    margin: 10px;
+    padding: 12px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.2s;
+    background-size: 150% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+  .dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .poppins-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .home_img {
+    width: 50%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
